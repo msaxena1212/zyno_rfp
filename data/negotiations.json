@@ -1,0 +1,41 @@
+[
+  {
+    "id": "NEG-00001",
+    "title": "Steel rate negotiation — FY2026-27 contract",
+    "vendor": "Stallion Steel Corp",
+    "vendorId": "VND-00002",
+    "status": "In Progress",
+    "rounds": 3,
+    "currentOffer": 11500,
+    "targetPrice": 10800,
+    "unit": "per MT",
+    "startDate": "2026-02-10",
+    "lastActivity": "2026-02-18"
+  },
+  {
+    "id": "NEG-00002",
+    "title": "IT AMC renewal pricing discussion",
+    "vendor": "TechPro Solutions",
+    "vendorId": "VND-00001",
+    "status": "Completed",
+    "rounds": 2,
+    "currentOffer": 4200000,
+    "targetPrice": 4000000,
+    "unit": "annual",
+    "startDate": "2026-01-15",
+    "lastActivity": "2026-02-01"
+  },
+  {
+    "id": "NEG-00003",
+    "title": "Bulk cable pricing for plant expansion",
+    "vendor": "ElectroCables India",
+    "vendorId": "VND-00008",
+    "status": "Pending Response",
+    "rounds": 1,
+    "currentOffer": 1100,
+    "targetPrice": 1000,
+    "unit": "per meter",
+    "startDate": "2026-02-15",
+    "lastActivity": "2026-02-16"
+  }
+]

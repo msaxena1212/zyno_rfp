@@ -1,0 +1,98 @@
+[
+  {
+    "id": "GRN-00001",
+    "poId": "PO-00002",
+    "vendor": "OfficeMart Supplies",
+    "date": "2026-02-22",
+    "status": "Accepted",
+    "inspectedBy": "Sunil Yadav",
+    "items": [
+      {
+        "name": "A4 Paper Ream",
+        "orderedQty": 200,
+        "receivedQty": 200,
+        "acceptedQty": 200,
+        "status": "Accepted"
+      },
+      {
+        "name": "Printer Cartridge",
+        "orderedQty": 20,
+        "receivedQty": 20,
+        "acceptedQty": 19,
+        "status": "Partial"
+      }
+    ]
+  },
+  {
+    "id": "GRN-00002",
+    "poId": "PO-00006",
+    "vendor": "SafeGuard Equipment",
+    "date": "2026-02-10",
+    "status": "Accepted",
+    "inspectedBy": "Priya Nair",
+    "items": [
+      {
+        "name": "Safety Helmet ISI",
+        "orderedQty": 150,
+        "receivedQty": 150,
+        "acceptedQty": 150,
+        "status": "Accepted"
+      },
+      {
+        "name": "Safety Goggles",
+        "orderedQty": 200,
+        "receivedQty": 200,
+        "acceptedQty": 195,
+        "status": "Partial"
+      }
+    ]
+  },
+  {
+    "id": "GRN-00003",
+    "poId": "PO-00003",
+    "vendor": "MRO Spares Global",
+    "date": "2026-02-28",
+    "status": "Pending Inspection",
+    "inspectedBy": "",
+    "items": [
+      {
+        "name": "Spindle Bearing",
+        "orderedQty": 4,
+        "receivedQty": 4,
+        "acceptedQty": 0,
+        "status": "Pending"
+      },
+      {
+        "name": "Cutting Tool Set",
+        "orderedQty": 10,
+        "receivedQty": 10,
+        "acceptedQty": 0,
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "id": "GRN-00004",
+    "poId": "PO-00001",
+    "vendor": "TechPro Solutions",
+    "date": "2026-03-01",
+    "status": "Rejected",
+    "inspectedBy": "Rahul Mehta",
+    "items": [
+      {
+        "name": "Laptop Dell Latitude",
+        "orderedQty": 5,
+        "receivedQty": 5,
+        "acceptedQty": 3,
+        "status": "Partial"
+      },
+      {
+        "name": "Monitor 27\"",
+        "orderedQty": 5,
+        "receivedQty": 5,
+        "acceptedQty": 5,
+        "status": "Accepted"
+      }
+    ]
+  }
+]

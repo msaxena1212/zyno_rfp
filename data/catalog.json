@@ -1,0 +1,98 @@
+[
+  {
+    "id": "CAT-00001",
+    "itemCode": "LAP-DL-001",
+    "name": "Laptop Dell Latitude 5540",
+    "category": "IT & Electronics",
+    "description": "15.6\" FHD, Intel i7, 16GB, 512GB SSD",
+    "unitPrice": 75000,
+    "preferredVendors": [
+      "VND-00001"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "CAT-00002",
+    "itemCode": "STL-MS-6MM",
+    "name": "MS Steel Plate 6mm",
+    "category": "Raw Materials",
+    "description": "Mild steel plate, 6mm thickness, IS 2062 grade",
+    "unitPrice": 12000,
+    "preferredVendors": [
+      "VND-00002"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "CAT-00003",
+    "itemCode": "PPR-A4-001",
+    "name": "A4 Copier Paper Ream (500 sheets)",
+    "category": "Office Supplies",
+    "description": "75 GSM, white, A4 size",
+    "unitPrice": 250,
+    "preferredVendors": [
+      "VND-00005"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "CAT-00004",
+    "itemCode": "HLM-ISI-001",
+    "name": "Safety Helmet ISI Marked",
+    "category": "Safety Equipment",
+    "description": "HDPE shell, adjustable cradle, ISI marked",
+    "unitPrice": 800,
+    "preferredVendors": [
+      "VND-00004"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "CAT-00005",
+    "itemCode": "CBL-CU-4MM",
+    "name": "Copper Cable 4sqmm",
+    "category": "Electrical",
+    "description": "Copper conductor, PVC insulated, 4 sq mm",
+    "unitPrice": 1200,
+    "preferredVendors": [
+      "VND-00008"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "CAT-00006",
+    "itemCode": "BRG-SKF-001",
+    "name": "SKF Bearing 6205",
+    "category": "MRO",
+    "description": "Deep groove ball bearing, 25x52x15mm",
+    "unitPrice": 1500,
+    "preferredVendors": [
+      "VND-00009"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "CAT-00007",
+    "itemCode": "BOX-CRG-001",
+    "name": "Corrugated Box 12x10x8",
+    "category": "Packaging",
+    "description": "3-ply corrugated, brown kraft",
+    "unitPrice": 125,
+    "preferredVendors": [
+      "VND-00003"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "CAT-00008",
+    "itemCode": "LUB-001",
+    "name": "Machine Lubricant 5L",
+    "category": "MRO",
+    "description": "Multi-purpose machine oil, ISO VG 68",
+    "unitPrice": 3500,
+    "preferredVendors": [
+      "VND-00009"
+    ],
+    "status": "Active"
+  }
+]

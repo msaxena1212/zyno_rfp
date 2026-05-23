@@ -1,0 +1,686 @@
+[
+  {
+    "id": "RFP-00001",
+    "title": "Annual IT infrastructure upgrade — FY2026-27",
+    "category": "IT & Electronics",
+    "date": "2026-02-12",
+    "dueDate": "2026-03-15",
+    "status": "Under Evaluation",
+    "budget": 8000000,
+    "vendors": [
+      "VND-00001",
+      "VND-00010",
+      "VND-00003",
+      "VND-00005",
+      "VND-00008",
+      "VND-00012"
+    ],
+    "submissions": 6,
+    "evaluationCriteria": [
+      {
+        "name": "Price Competitiveness",
+        "weight": 30
+      },
+      {
+        "name": "Technical Fit",
+        "weight": 25
+      },
+      {
+        "name": "Past Performance",
+        "weight": 20
+      },
+      {
+        "name": "Delivery Timeline",
+        "weight": 15
+      },
+      {
+        "name": "Value Adds",
+        "weight": 10
+      }
+    ],
+    "vendorResponses": [
+      {
+        "vendorId": "VND-00001",
+        "vendorName": "Redington India Ltd",
+        "quotedPrice": 7200000,
+        "deliveryDays": 14,
+        "technicalCompliance": 95,
+        "warranty": "3 Years On-site",
+        "certifications": [
+          "ISO 9001",
+          "ISO 27001",
+          "CMMI Level 5"
+        ],
+        "paymentTerms": "Net 30",
+        "pastRating": 4.5,
+        "onTimeHistory": 96,
+        "qualityHistory": 97,
+        "proposalSummary": "Comprehensive IT infrastructure upgrade including Dell PowerEdge servers, Cisco networking equipment, and HP workstations. Includes 3-year on-site warranty with 4-hour response SLA. Installation and migration support included."
+      },
+      {
+        "vendorId": "VND-00010",
+        "vendorName": "TechVista Solutions",
+        "quotedPrice": 6800000,
+        "deliveryDays": 21,
+        "technicalCompliance": 88,
+        "warranty": "2 Years Standard",
+        "certifications": [
+          "ISO 9001"
+        ],
+        "paymentTerms": "Net 45",
+        "pastRating": 3.8,
+        "onTimeHistory": 82,
+        "qualityHistory": 85,
+        "proposalSummary": "Cost-effective IT solution using Lenovo ThinkSystem servers and Aruba networking. Standard 2-year warranty. Basic installation support provided. Training available at additional cost."
+      },
+      {
+        "vendorId": "VND-00003",
+        "vendorName": "Wipro Infrastructure",
+        "quotedPrice": 7800000,
+        "deliveryDays": 10,
+        "technicalCompliance": 98,
+        "warranty": "5 Years Comprehensive",
+        "certifications": [
+          "ISO 9001",
+          "ISO 27001",
+          "ISO 14001",
+          "CMMI Level 5"
+        ],
+        "paymentTerms": "Net 30",
+        "pastRating": 4.8,
+        "onTimeHistory": 98,
+        "qualityHistory": 99,
+        "proposalSummary": "Enterprise-grade solution with HPE Synergy composable infrastructure, Cisco Meraki networking, and full-stack monitoring. 5-year comprehensive warranty with dedicated support team. Complete migration, testing, and training included."
+      },
+      {
+        "vendorId": "VND-00005",
+        "vendorName": "CompuAge InfoTech",
+        "quotedPrice": 6500000,
+        "deliveryDays": 28,
+        "technicalCompliance": 78,
+        "warranty": "1 Year Standard",
+        "certifications": [
+          "ISO 9001"
+        ],
+        "paymentTerms": "50% Advance",
+        "pastRating": 3.2,
+        "onTimeHistory": 72,
+        "qualityHistory": 76,
+        "proposalSummary": "Budget-friendly solution using assembled servers and TP-Link networking equipment. 1-year standard warranty. Installation not included. Available for bulk discount negotiations."
+      },
+      {
+        "vendorId": "VND-00008",
+        "vendorName": "HCL Infosystems",
+        "quotedPrice": 7500000,
+        "deliveryDays": 12,
+        "technicalCompliance": 92,
+        "warranty": "3 Years On-site",
+        "certifications": [
+          "ISO 9001",
+          "ISO 27001",
+          "ISO 20000"
+        ],
+        "paymentTerms": "Net 30",
+        "pastRating": 4.3,
+        "onTimeHistory": 91,
+        "qualityHistory": 93,
+        "proposalSummary": "HCL-branded servers with Dell components, Juniper networking stack. 3-year on-site warranty with next-business-day replacement. Includes project management and phased deployment plan."
+      },
+      {
+        "vendorId": "VND-00012",
+        "vendorName": "Ingram Micro India",
+        "quotedPrice": 7000000,
+        "deliveryDays": 18,
+        "technicalCompliance": 90,
+        "warranty": "2 Years Extended",
+        "certifications": [
+          "ISO 9001",
+          "ISO 14001"
+        ],
+        "paymentTerms": "Net 45",
+        "pastRating": 4.1,
+        "onTimeHistory": 88,
+        "qualityHistory": 90,
+        "proposalSummary": "Multi-brand offering with Dell, HP, and Cisco products. 2-year extended warranty with option to upgrade. Remote monitoring setup included. Flexible payment terms available."
+      }
+    ]
+  },
+  {
+    "id": "RFP-00002",
+    "title": "Raw material supply contract renewal",
+    "category": "Raw Materials",
+    "date": "2026-02-01",
+    "dueDate": "2026-03-01",
+    "status": "Under Evaluation",
+    "budget": 20000000,
+    "vendors": [
+      "VND-00002",
+      "VND-00007",
+      "VND-00004",
+      "VND-00006",
+      "VND-00009",
+      "VND-00011",
+      "VND-00013",
+      "VND-00014"
+    ],
+    "submissions": 8,
+    "evaluationCriteria": [
+      {
+        "name": "Price Competitiveness",
+        "weight": 35
+      },
+      {
+        "name": "Technical Fit",
+        "weight": 20
+      },
+      {
+        "name": "Past Performance",
+        "weight": 20
+      },
+      {
+        "name": "Delivery Timeline",
+        "weight": 15
+      },
+      {
+        "name": "Value Adds",
+        "weight": 10
+      }
+    ],
+    "vendorResponses": [
+      {
+        "vendorId": "VND-00002",
+        "vendorName": "Tata Steel Ltd",
+        "quotedPrice": 18500000,
+        "deliveryDays": 7,
+        "technicalCompliance": 99,
+        "warranty": "Quality Guarantee",
+        "certifications": [
+          "ISO 9001",
+          "ISO 14001",
+          "BIS",
+          "ASTM"
+        ],
+        "paymentTerms": "Net 30",
+        "pastRating": 4.9,
+        "onTimeHistory": 99,
+        "qualityHistory": 99,
+        "proposalSummary": "Premium-grade steel and alloys meeting all BIS and ASTM standards. Dedicated supply chain with JIT delivery capability. Quality guarantee with free replacement for any defective batch. 25-year supply relationship."
+      },
+      {
+        "vendorId": "VND-00007",
+        "vendorName": "JSW Steel",
+        "quotedPrice": 17800000,
+        "deliveryDays": 10,
+        "technicalCompliance": 96,
+        "warranty": "Quality Guarantee",
+        "certifications": [
+          "ISO 9001",
+          "ISO 14001",
+          "BIS"
+        ],
+        "paymentTerms": "Net 30",
+        "pastRating": 4.6,
+        "onTimeHistory": 94,
+        "qualityHistory": 96,
+        "proposalSummary": "High-quality steel products with competitive pricing. ISO certified manufacturing with full traceability. Flexible delivery schedules and volume-based pricing tiers available."
+      },
+      {
+        "vendorId": "VND-00004",
+        "vendorName": "SAIL",
+        "quotedPrice": 16500000,
+        "deliveryDays": 15,
+        "technicalCompliance": 92,
+        "warranty": "Standard",
+        "certifications": [
+          "ISO 9001",
+          "BIS"
+        ],
+        "paymentTerms": "Net 45",
+        "pastRating": 4,
+        "onTimeHistory": 85,
+        "qualityHistory": 88,
+        "proposalSummary": "Government-owned steel authority offering lowest price point. Standardized products meeting all BIS norms. Longer delivery timelines but consistent quality. Bulk order discounts available."
+      },
+      {
+        "vendorId": "VND-00006",
+        "vendorName": "Hindalco Industries",
+        "quotedPrice": 19200000,
+        "deliveryDays": 8,
+        "technicalCompliance": 94,
+        "warranty": "Premium Quality Assurance",
+        "certifications": [
+          "ISO 9001",
+          "ISO 14001",
+          "BIS",
+          "REACH"
+        ],
+        "paymentTerms": "Net 30",
+        "pastRating": 4.4,
+        "onTimeHistory": 92,
+        "qualityHistory": 95,
+        "proposalSummary": "Aditya Birla Group company offering aluminum and copper products alongside steel. Premium quality assurance with independent lab testing. Sustainable manufacturing practices and carbon-neutral delivery option."
+      },
+      {
+        "vendorId": "VND-00009",
+        "vendorName": "Vedanta Resources",
+        "quotedPrice": 17200000,
+        "deliveryDays": 12,
+        "technicalCompliance": 88,
+        "warranty": "Standard",
+        "certifications": [
+          "ISO 9001",
+          "BIS"
+        ],
+        "paymentTerms": "Net 60",
+        "pastRating": 3.7,
+        "onTimeHistory": 80,
+        "qualityHistory": 82,
+        "proposalSummary": "Diversified metals and mining company. Competitive pricing on bulk orders. Standard quality compliance. Extended payment terms available. Multi-location delivery network across India."
+      },
+      {
+        "vendorId": "VND-00011",
+        "vendorName": "Essar Steel",
+        "quotedPrice": 18000000,
+        "deliveryDays": 14,
+        "technicalCompliance": 91,
+        "warranty": "Quality Guarantee",
+        "certifications": [
+          "ISO 9001",
+          "ISO 14001",
+          "BIS"
+        ],
+        "paymentTerms": "Net 30",
+        "pastRating": 4.2,
+        "onTimeHistory": 89,
+        "qualityHistory": 91,
+        "proposalSummary": "Flat and long steel products. Dedicated account manager and weekly delivery tracking reports. Quality guarantee with batch-level certificates. Competitive pricing for annual contracts."
+      },
+      {
+        "vendorId": "VND-00013",
+        "vendorName": "Jindal Steel & Power",
+        "quotedPrice": 17500000,
+        "deliveryDays": 11,
+        "technicalCompliance": 93,
+        "warranty": "Quality Guarantee",
+        "certifications": [
+          "ISO 9001",
+          "ISO 14001",
+          "BIS",
+          "CE Mark"
+        ],
+        "paymentTerms": "Net 30",
+        "pastRating": 4.3,
+        "onTimeHistory": 90,
+        "qualityHistory": 92,
+        "proposalSummary": "Wide range of steel products including specialized alloys. CE marked for export quality. Integrated steel plant with end-to-end quality control. Volume discounts and flexible scheduling."
+      },
+      {
+        "vendorId": "VND-00014",
+        "vendorName": "Uttam Galva Steels",
+        "quotedPrice": 16800000,
+        "deliveryDays": 20,
+        "technicalCompliance": 82,
+        "warranty": "Standard",
+        "certifications": [
+          "ISO 9001"
+        ],
+        "paymentTerms": "50% Advance",
+        "pastRating": 3.4,
+        "onTimeHistory": 75,
+        "qualityHistory": 78,
+        "proposalSummary": "Galvanized steel products at competitive rates. Suitable for general construction applications. Standard quality. Advance payment required for new contracts. Regional delivery network."
+      }
+    ]
+  },
+  {
+    "id": "RFP-00003",
+    "title": "Safety equipment and PPE — annual order",
+    "category": "Safety Equipment",
+    "date": "2026-01-25",
+    "dueDate": "2026-02-20",
+    "status": "Awarded",
+    "budget": 3000000,
+    "vendors": [
+      "VND-00004"
+    ],
+    "submissions": 1,
+    "awardedTo": "VND-00004"
+  },
+  {
+    "title": "Macbook Air M4",
+    "category": "General",
+    "assetClass": "IT & Telecom",
+    "assetCategory": "Hardware",
+    "item": "Macbook Air M4 256 gb",
+    "quantity": "10",
+    "deliveryLocation": "Janakpuri Delhi",
+    "budget": "1000000",
+    "dueDate": "2026-02-27",
+    "description": "Macbook Air M4 256 gb",
+    "status": "Open",
+    "vendors": [
+      "Aptronix",
+      "Team Computers"
+    ],
+    "submissions": 0,
+    "discoverySource": "AI Agent",
+    "id": "RFP-00004",
+    "createdAt": "2026-02-21T06:29:09.176Z",
+    "updatedAt": "2026-02-21T06:29:09.176Z"
+  },
+  {
+    "title": "Macbook air m4 256 gb",
+    "category": "General",
+    "assetClass": "IT & Telecom",
+    "assetCategory": "Hardware",
+    "item": "Macbook air m4 256 gb",
+    "quantity": "10",
+    "deliveryLocation": "Janakpuri Delhi",
+    "budget": "1000000",
+    "dueDate": "2026-02-27",
+    "description": "Macbook air m4 256 gb",
+    "status": "Open",
+    "vendors": [
+      "Team Computers",
+      "Ample Digital Pvt Ltd"
+    ],
+    "submissions": 0,
+    "discoverySource": "AI Agent",
+    "id": "RFP-00005",
+    "createdAt": "2026-02-21T06:46:09.049Z",
+    "updatedAt": "2026-02-21T06:46:09.049Z"
+  },
+  {
+    "title": "Fire extinguisher",
+    "category": "General",
+    "assetClass": "Infrastructure",
+    "assetCategory": "Office Supplies",
+    "item": "Fire extinguisher",
+    "quantity": "10",
+    "deliveryLocation": "Janakpuri Delhi",
+    "budget": "100000",
+    "dueDate": "2026-02-27",
+    "description": "Fire extinguisher",
+    "status": "Open",
+    "vendors": [
+      "Extinguisher Fire Systems",
+      "Extinguisher Fire Solutions"
+    ],
+    "submissions": 0,
+    "discoverySource": "AI Agent",
+    "id": "RFP-00006",
+    "createdAt": "2026-02-21T07:10:12.010Z",
+    "updatedAt": "2026-02-21T07:10:12.010Z"
+  },
+  {
+    "title": "Safety shoes",
+    "category": "General",
+    "assetClass": "Manufacturing",
+    "assetCategory": "Office Supplies",
+    "item": "Safety shoes",
+    "quantity": "100",
+    "deliveryLocation": "DELHI",
+    "budget": "100000",
+    "dueDate": "2026-03-03",
+    "description": "Safety shoes with uk size 9",
+    "status": "Open",
+    "vendors": [
+      "Emperor Safety Shoes",
+      "Guyisa"
+    ],
+    "submissions": 0,
+    "discoverySource": "AI Agent",
+    "evaluationCriteria": [
+      {
+        "name": "Price Competitiveness",
+        "weight": 30
+      },
+      {
+        "name": "Technical Fit",
+        "weight": 25
+      },
+      {
+        "name": "Past Performance",
+        "weight": 20
+      },
+      {
+        "name": "Delivery Timeline",
+        "weight": 15
+      },
+      {
+        "name": "Value Adds",
+        "weight": 10
+      }
+    ],
+    "id": "RFP-00007",
+    "createdAt": "2026-03-02T08:53:51.151Z",
+    "updatedAt": "2026-03-02T08:53:51.151Z"
+  },
+  {
+    "title": "Tropicano juices",
+    "category": "General",
+    "assetClass": "IT & Telecom",
+    "assetCategory": "Office Supplies",
+    "item": "Tropicano juices",
+    "quantity": "100",
+    "deliveryLocation": "DELHI",
+    "budget": "100000",
+    "dueDate": "2026-03-03",
+    "description": "Tropicano juices 1 litre packs",
+    "status": "Open",
+    "vendors": [
+      "Emperor Safety Shoes",
+      "Guyisa",
+      "Tropicana Juice Manufacturers in India",
+      "Tropicana Juice Manufacturers & Suppliers"
+    ],
+    "submissions": 0,
+    "discoverySource": "AI Agent",
+    "evaluationCriteria": [
+      {
+        "name": "Price Competitiveness",
+        "weight": 30
+      },
+      {
+        "name": "Technical Fit",
+        "weight": 25
+      },
+      {
+        "name": "Past Performance",
+        "weight": 20
+      },
+      {
+        "name": "Delivery Timeline",
+        "weight": 15
+      },
+      {
+        "name": "Value Adds",
+        "weight": 10
+      }
+    ],
+    "id": "RFP-00008",
+    "createdAt": "2026-03-02T09:59:38.180Z",
+    "updatedAt": "2026-03-02T09:59:38.180Z"
+  },
+  {
+    "title": "Macbook air m5 512gb",
+    "category": "General",
+    "assetClass": "IT & Telecom",
+    "assetCategory": "Hardware",
+    "item": "Macbook air m5 512gb",
+    "quantity": "10",
+    "deliveryLocation": "Delhi",
+    "budget": "1000000",
+    "dueDate": "2026-04-25",
+    "description": "Macbook air m5 512gb",
+    "status": "Open",
+    "vendors": [
+      "Apple MacBook Air Wholesalers & Distributors in India",
+      "Apple Authorised Enterprise Reseller",
+      "Macbook+air+15+m5 Suppliers & Exporters in India",
+      "Redington Online"
+    ],
+    "submissions": 0,
+    "discoverySource": "AI Agent",
+    "evaluationCriteria": [
+      {
+        "name": "Price Competitiveness",
+        "weight": 30
+      },
+      {
+        "name": "Technical Fit",
+        "weight": 25
+      },
+      {
+        "name": "Past Performance",
+        "weight": 20
+      },
+      {
+        "name": "Delivery Timeline",
+        "weight": 15
+      },
+      {
+        "name": "Value Adds",
+        "weight": 10
+      }
+    ],
+    "id": "RFP-00009",
+    "createdAt": "2026-04-24T06:28:44.562Z",
+    "updatedAt": "2026-04-24T06:28:44.562Z"
+  },
+  {
+    "title": "Road construction project",
+    "category": "General",
+    "assetClass": "Infrastructure",
+    "assetCategory": "Raw Materials",
+    "item": "Road construction project",
+    "quantity": "1",
+    "deliveryLocation": "Mumbai",
+    "budget": "10000000",
+    "dueDate": "2026-04-30",
+    "description": "Road construction project for an infrastructure company",
+    "status": "Open",
+    "vendors": [
+      "Dilip Buildcon Limited",
+      "MKC Infrastructure Ltd.",
+      "MCC Infratech Pvt Ltd",
+      "Indicon Construction Pvt Ltd",
+      "AVP Infracon",
+      "VRC Constructions"
+    ],
+    "submissions": 0,
+    "discoverySource": "AI Agent",
+    "evaluationCriteria": [
+      {
+        "name": "Price Competitiveness",
+        "weight": 30
+      },
+      {
+        "name": "Technical Fit",
+        "weight": 25
+      },
+      {
+        "name": "Past Performance",
+        "weight": 20
+      },
+      {
+        "name": "Delivery Timeline",
+        "weight": 15
+      },
+      {
+        "name": "Value Adds",
+        "weight": 10
+      }
+    ],
+    "id": "RFP-00010",
+    "createdAt": "2026-04-27T11:13:21.724Z",
+    "updatedAt": "2026-04-27T11:13:21.724Z"
+  },
+  {
+    "title": "Phospate buffer",
+    "category": "General",
+    "assetClass": "Construction",
+    "assetCategory": "Facility Management",
+    "item": "Phospate buffer",
+    "quantity": "10",
+    "deliveryLocation": "Delhi",
+    "budget": "1000000",
+    "dueDate": "2026-05-20",
+    "description": "Phospate buffer, sodium phosphate",
+    "status": "Open",
+    "vendors": [
+      "RM Phosphates & Chemicals Pvt. Ltd."
+    ],
+    "submissions": 0,
+    "discoverySource": "AI Agent",
+    "evaluationCriteria": [
+      {
+        "name": "Price Competitiveness",
+        "weight": 30
+      },
+      {
+        "name": "Technical Fit",
+        "weight": 25
+      },
+      {
+        "name": "Past Performance",
+        "weight": 20
+      },
+      {
+        "name": "Delivery Timeline",
+        "weight": 15
+      },
+      {
+        "name": "Value Adds",
+        "weight": 10
+      }
+    ],
+    "id": "RFP-00011",
+    "createdAt": "2026-05-19T07:35:09.864Z",
+    "updatedAt": "2026-05-19T07:35:09.864Z"
+  },
+  {
+    "title": "Macbook air m4",
+    "category": "General",
+    "assetClass": "IT & Telecom",
+    "assetCategory": "Hardware",
+    "item": "Macbook air m4",
+    "quantity": "1",
+    "deliveryLocation": "Delhi",
+    "budget": "100000",
+    "dueDate": "2026-05-23",
+    "description": "Macbook air m4",
+    "status": "Open",
+    "vendors": [
+      "Apple Premium Reseller. Best Apple Store",
+      "MacBook Air"
+    ],
+    "submissions": 0,
+    "discoverySource": "AI Agent",
+    "evaluationCriteria": [
+      {
+        "name": "Price Competitiveness",
+        "weight": 30
+      },
+      {
+        "name": "Technical Fit",
+        "weight": 25
+      },
+      {
+        "name": "Past Performance",
+        "weight": 20
+      },
+      {
+        "name": "Delivery Timeline",
+        "weight": 15
+      },
+      {
+        "name": "Value Adds",
+        "weight": 10
+      }
+    ],
+    "id": "RFP-00012",
+    "createdAt": "2026-05-23T05:13:12.523Z",
+    "updatedAt": "2026-05-23T05:13:12.523Z"
+  }
+]

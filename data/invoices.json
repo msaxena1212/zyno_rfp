@@ -1,0 +1,80 @@
+[
+  {
+    "id": "INV-00001",
+    "invoiceNumber": "TPS/2026/0892",
+    "vendor": "OfficeMart Supplies",
+    "vendorId": "VND-00005",
+    "poId": "PO-00002",
+    "date": "2026-02-23",
+    "dueDate": "2026-03-10",
+    "amount": 85000,
+    "status": "Approved",
+    "matchStatus": "Matched",
+    "threeWayScore": 98
+  },
+  {
+    "id": "INV-00002",
+    "invoiceNumber": "SGE/2026/1445",
+    "vendor": "SafeGuard Equipment",
+    "vendorId": "VND-00004",
+    "poId": "PO-00006",
+    "date": "2026-02-12",
+    "dueDate": "2026-03-14",
+    "amount": 280000,
+    "status": "Pending Approval",
+    "matchStatus": "Matched",
+    "threeWayScore": 95
+  },
+  {
+    "id": "INV-00003",
+    "invoiceNumber": "TPS/2026/0901",
+    "vendor": "TechPro Solutions",
+    "vendorId": "VND-00001",
+    "poId": "PO-00001",
+    "date": "2026-03-02",
+    "dueDate": "2026-04-01",
+    "amount": 450000,
+    "status": "Under Review",
+    "matchStatus": "Partial Match",
+    "threeWayScore": 72
+  },
+  {
+    "id": "INV-00004",
+    "invoiceNumber": "SSC/2026/3321",
+    "vendor": "Stallion Steel Corp",
+    "vendorId": "VND-00002",
+    "poId": "PO-00005",
+    "date": "2026-02-18",
+    "dueDate": "2026-04-18",
+    "amount": 2800000,
+    "status": "Pending Approval",
+    "matchStatus": "Pending",
+    "threeWayScore": 0
+  },
+  {
+    "id": "INV-00005",
+    "invoiceNumber": "ECI/2026/0567",
+    "vendor": "ElectroCables India",
+    "vendorId": "VND-00008",
+    "poId": "PO-00004",
+    "date": "2026-02-20",
+    "dueDate": "2026-03-22",
+    "amount": 890000,
+    "status": "Draft",
+    "matchStatus": "Pending",
+    "threeWayScore": 0
+  },
+  {
+    "id": "INV-00006",
+    "invoiceNumber": "MSG/2026/2201",
+    "vendor": "MRO Spares Global",
+    "vendorId": "VND-00009",
+    "poId": "PO-00003",
+    "date": "2026-03-01",
+    "dueDate": "2026-04-14",
+    "amount": 560000,
+    "status": "Pending Approval",
+    "matchStatus": "Matched",
+    "threeWayScore": 91
+  }
+]

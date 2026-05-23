@@ -1,0 +1,65 @@
+[
+  {
+    "id": "AUD-00001",
+    "action": "PR Created",
+    "module": "Purchase Requisition",
+    "user": "Sanjay Rao",
+    "timestamp": "2026-02-14T09:30:00",
+    "details": "Created PR-00002: Steel plates for manufacturing Q1",
+    "ipAddress": "192.168.1.45"
+  },
+  {
+    "id": "AUD-00002",
+    "action": "PO Approved",
+    "module": "Purchase Order",
+    "user": "Arjun Kumar",
+    "timestamp": "2026-02-16T11:15:00",
+    "details": "Approved PO-00001 for TechPro Solutions — ₹4,50,000",
+    "ipAddress": "192.168.1.10"
+  },
+  {
+    "id": "AUD-00003",
+    "action": "Vendor Blacklisted",
+    "module": "Vendor Management",
+    "user": "Arjun Kumar",
+    "timestamp": "2026-02-12T14:00:00",
+    "details": "NovaTech Systems blacklisted due to repeated compliance violations",
+    "ipAddress": "192.168.1.10"
+  },
+  {
+    "id": "AUD-00004",
+    "action": "Invoice 3-Way Match",
+    "module": "Invoice Approval",
+    "user": "System (AI)",
+    "timestamp": "2026-02-23T08:00:00",
+    "details": "Auto-matched INV-00001 with PO-00002 and GRN-00001 — Score: 98%",
+    "ipAddress": "system"
+  },
+  {
+    "id": "AUD-00005",
+    "action": "GRN Rejected",
+    "module": "GRN",
+    "user": "Rahul Mehta",
+    "timestamp": "2026-03-01T16:45:00",
+    "details": "Partially rejected GRN-00004: 2 laptops with keyboard defects",
+    "ipAddress": "192.168.1.22"
+  },
+  {
+    "id": "AUD-00006",
+    "action": "Contract Expired",
+    "module": "Contract Management",
+    "user": "System",
+    "timestamp": "2026-01-01T00:00:00",
+    "details": "CON-00004 (Safety Equipment AMC) expired — renewal required",
+    "ipAddress": "system"
+  },
+  {
+    "id": "AUD-00007",
+    "action": "Budget Alert",
+    "module": "Budget Management",
+    "user": "System (AI)",
+    "timestamp": "2026-02-15T07:00:00",
+    "details": "Maintenance department budget at 96% utilization — critical alert triggered",
+    "ipAddress": "system"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "CON-00001",
+    "contractNumber": "CTR/2025/001",
+    "vendor": "TechPro Solutions",
+    "vendorId": "VND-00001",
+    "title": "Annual IT Hardware Supply Agreement",
+    "startDate": "2025-04-01",
+    "endDate": "2026-03-31",
+    "value": 5000000,
+    "status": "Active",
+    "autoRenewal": true,
+    "category": "IT & Electronics"
+  },
+  {
+    "id": "CON-00002",
+    "contractNumber": "CTR/2025/002",
+    "vendor": "Stallion Steel Corp",
+    "vendorId": "VND-00002",
+    "title": "Steel Supply Rate Contract FY2025-26",
+    "startDate": "2025-04-01",
+    "endDate": "2026-03-31",
+    "value": 15000000,
+    "status": "Active",
+    "autoRenewal": false,
+    "category": "Raw Materials"
+  },
+  {
+    "id": "CON-00003",
+    "contractNumber": "CTR/2024/015",
+    "vendor": "GreenPack Industries",
+    "vendorId": "VND-00003",
+    "title": "Packaging Material Supply Contract",
+    "startDate": "2024-07-01",
+    "endDate": "2026-06-30",
+    "value": 3500000,
+    "status": "Active",
+    "autoRenewal": true,
+    "category": "Packaging"
+  },
+  {
+    "id": "CON-00004",
+    "contractNumber": "CTR/2025/008",
+    "vendor": "SafeGuard Equipment",
+    "vendorId": "VND-00004",
+    "title": "Safety Equipment AMC",
+    "startDate": "2025-01-01",
+    "endDate": "2025-12-31",
+    "value": 2000000,
+    "status": "Expired",
+    "autoRenewal": false,
+    "category": "Safety Equipment"
+  },
+  {
+    "id": "CON-00005",
+    "contractNumber": "CTR/2025/012",
+    "vendor": "ElectroCables India",
+    "vendorId": "VND-00008",
+    "title": "Electrical Supplies Framework Agreement",
+    "startDate": "2025-06-01",
+    "endDate": "2027-05-31",
+    "value": 8000000,
+    "status": "Active",
+    "autoRenewal": true,
+    "category": "Electrical"
+  }
+]

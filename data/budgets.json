@@ -1,0 +1,56 @@
+[
+  {
+    "id": "BUD-00001",
+    "department": "IT",
+    "category": "Hardware",
+    "allocated": 8000000,
+    "spent": 5400000,
+    "period": "FY 2025-26",
+    "status": "On Track"
+  },
+  {
+    "id": "BUD-00002",
+    "department": "Production",
+    "category": "Raw Materials",
+    "allocated": 25000000,
+    "spent": 18500000,
+    "period": "FY 2025-26",
+    "status": "Warning"
+  },
+  {
+    "id": "BUD-00003",
+    "department": "Admin",
+    "category": "Office Supplies",
+    "allocated": 1200000,
+    "spent": 850000,
+    "period": "FY 2025-26",
+    "status": "On Track"
+  },
+  {
+    "id": "BUD-00004",
+    "department": "EHS",
+    "category": "Safety Equipment",
+    "allocated": 3000000,
+    "spent": 2200000,
+    "period": "FY 2025-26",
+    "status": "On Track"
+  },
+  {
+    "id": "BUD-00005",
+    "department": "Maintenance",
+    "category": "MRO",
+    "allocated": 5000000,
+    "spent": 4800000,
+    "period": "FY 2025-26",
+    "status": "Critical"
+  },
+  {
+    "id": "BUD-00006",
+    "department": "Projects",
+    "category": "Capital Expenditure",
+    "allocated": 15000000,
+    "spent": 6200000,
+    "period": "FY 2025-26",
+    "status": "On Track"
+  }
+]

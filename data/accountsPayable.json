@@ -1,0 +1,72 @@
+[
+  {
+    "id": "AP-00001",
+    "vendor": "OfficeMart Supplies",
+    "vendorId": "VND-00005",
+    "invoiceIds": [
+      "INV-00001"
+    ],
+    "totalDue": 85000,
+    "paidAmount": 85000,
+    "status": "Paid",
+    "paymentDate": "2026-03-08",
+    "paymentMethod": "NEFT",
+    "dueDate": "2026-03-10"
+  },
+  {
+    "id": "AP-00002",
+    "vendor": "SafeGuard Equipment",
+    "vendorId": "VND-00004",
+    "invoiceIds": [
+      "INV-00002"
+    ],
+    "totalDue": 280000,
+    "paidAmount": 0,
+    "status": "Pending",
+    "paymentDate": "",
+    "paymentMethod": "",
+    "dueDate": "2026-03-14"
+  },
+  {
+    "id": "AP-00003",
+    "vendor": "Stallion Steel Corp",
+    "vendorId": "VND-00002",
+    "invoiceIds": [
+      "INV-00004"
+    ],
+    "totalDue": 2800000,
+    "paidAmount": 0,
+    "status": "Overdue",
+    "paymentDate": "",
+    "paymentMethod": "",
+    "dueDate": "2026-02-18"
+  },
+  {
+    "id": "AP-00004",
+    "vendor": "ElectroCables India",
+    "vendorId": "VND-00008",
+    "invoiceIds": [
+      "INV-00005"
+    ],
+    "totalDue": 890000,
+    "paidAmount": 0,
+    "status": "Scheduled",
+    "paymentDate": "2026-03-20",
+    "paymentMethod": "RTGS",
+    "dueDate": "2026-03-22"
+  },
+  {
+    "id": "AP-00005",
+    "vendor": "MRO Spares Global",
+    "vendorId": "VND-00009",
+    "invoiceIds": [
+      "INV-00006"
+    ],
+    "totalDue": 560000,
+    "paidAmount": 0,
+    "status": "Pending",
+    "paymentDate": "",
+    "paymentMethod": "",
+    "dueDate": "2026-04-14"
+  }
+]

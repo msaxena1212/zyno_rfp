@@ -1,0 +1,151 @@
+[
+  {
+    "id": "PO-00001",
+    "prId": "PR-00001",
+    "vendorId": "VND-00001",
+    "vendor": "TechPro Solutions",
+    "date": "2026-02-16",
+    "deliveryDate": "2026-03-01",
+    "status": "Confirmed",
+    "totalAmount": 450000,
+    "paymentTerms": "Net 30",
+    "items": [
+      {
+        "name": "Laptop Dell Latitude",
+        "qty": 5,
+        "unitPrice": 75000,
+        "total": 375000
+      },
+      {
+        "name": "Monitor 27\"",
+        "qty": 5,
+        "unitPrice": 15000,
+        "total": 75000
+      }
+    ]
+  },
+  {
+    "id": "PO-00002",
+    "prId": "PR-00003",
+    "vendorId": "VND-00005",
+    "vendor": "OfficeMart Supplies",
+    "date": "2026-02-15",
+    "deliveryDate": "2026-02-22",
+    "status": "Delivered",
+    "totalAmount": 85000,
+    "paymentTerms": "Net 15",
+    "items": [
+      {
+        "name": "A4 Paper Ream",
+        "qty": 200,
+        "unitPrice": 250,
+        "total": 50000
+      },
+      {
+        "name": "Printer Cartridge",
+        "qty": 20,
+        "unitPrice": 1750,
+        "total": 35000
+      }
+    ]
+  },
+  {
+    "id": "PO-00003",
+    "prId": "PR-00005",
+    "vendorId": "VND-00009",
+    "vendor": "MRO Spares Global",
+    "date": "2026-02-14",
+    "deliveryDate": "2026-02-28",
+    "status": "In Transit",
+    "totalAmount": 560000,
+    "paymentTerms": "Net 45",
+    "items": [
+      {
+        "name": "Spindle Bearing",
+        "qty": 4,
+        "unitPrice": 85000,
+        "total": 340000
+      },
+      {
+        "name": "Cutting Tool Set",
+        "qty": 10,
+        "unitPrice": 22000,
+        "total": 220000
+      }
+    ]
+  },
+  {
+    "id": "PO-00004",
+    "prId": "PR-00008",
+    "vendorId": "VND-00008",
+    "vendor": "ElectroCables India",
+    "date": "2026-02-12",
+    "deliveryDate": "2026-03-05",
+    "status": "Confirmed",
+    "totalAmount": 890000,
+    "paymentTerms": "Net 30",
+    "items": [
+      {
+        "name": "Copper Cable 4sqmm",
+        "qty": 500,
+        "unitPrice": 1200,
+        "total": 600000
+      },
+      {
+        "name": "Armoured Cable 16sqmm",
+        "qty": 100,
+        "unitPrice": 2900,
+        "total": 290000
+      }
+    ]
+  },
+  {
+    "id": "PO-00005",
+    "prId": "PR-00002",
+    "vendorId": "VND-00002",
+    "vendor": "Stallion Steel Corp",
+    "date": "2026-02-10",
+    "deliveryDate": "2026-03-10",
+    "status": "Pending",
+    "totalAmount": 2800000,
+    "paymentTerms": "Net 60",
+    "items": [
+      {
+        "name": "MS Steel Plate 6mm",
+        "qty": 200,
+        "unitPrice": 12000,
+        "total": 2400000
+      },
+      {
+        "name": "SS Steel Plate 4mm",
+        "qty": 50,
+        "unitPrice": 8000,
+        "total": 400000
+      }
+    ]
+  },
+  {
+    "id": "PO-00006",
+    "vendorId": "VND-00004",
+    "vendor": "SafeGuard Equipment",
+    "date": "2026-01-20",
+    "deliveryDate": "2026-02-10",
+    "status": "Delivered",
+    "totalAmount": 280000,
+    "paymentTerms": "Net 30",
+    "items": [
+      {
+        "name": "Safety Helmet ISI",
+        "qty": 150,
+        "unitPrice": 800,
+        "total": 120000
+      },
+      {
+        "name": "Safety Goggles",
+        "qty": 200,
+        "unitPrice": 800,
+        "total": 160000
+      }
+    ]
+  }
+]

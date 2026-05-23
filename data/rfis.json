@@ -1,0 +1,40 @@
+[
+  {
+    "id": "RFI-00001",
+    "title": "Industrial IoT sensors for predictive maintenance",
+    "category": "IT & Electronics",
+    "date": "2026-02-10",
+    "dueDate": "2026-02-25",
+    "status": "Open",
+    "sentTo": [
+      "VND-00001",
+      "VND-00010"
+    ],
+    "responses": 1
+  },
+  {
+    "id": "RFI-00002",
+    "title": "Eco-friendly packaging alternatives",
+    "category": "Packaging",
+    "date": "2026-02-08",
+    "dueDate": "2026-02-22",
+    "status": "Closed",
+    "sentTo": [
+      "VND-00003"
+    ],
+    "responses": 1
+  },
+  {
+    "id": "RFI-00003",
+    "title": "High-grade aluminum alloy supply capabilities",
+    "category": "Raw Materials",
+    "date": "2026-02-05",
+    "dueDate": "2026-02-20",
+    "status": "Open",
+    "sentTo": [
+      "VND-00002",
+      "VND-00007"
+    ],
+    "responses": 0
+  }
+]

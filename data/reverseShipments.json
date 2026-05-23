@@ -1,0 +1,56 @@
+[
+  {
+    "id": "RS-00001",
+    "grnId": "GRN-00001",
+    "poId": "PO-00002",
+    "vendor": "OfficeMart Supplies",
+    "date": "2026-02-23",
+    "status": "Shipped",
+    "reason": "Defective cartridge",
+    "items": [
+      {
+        "name": "Printer Cartridge",
+        "qty": 1,
+        "reason": "Print quality defect"
+      }
+    ],
+    "trackingNumber": "TRK9876543210",
+    "carrier": "BlueDart"
+  },
+  {
+    "id": "RS-00002",
+    "grnId": "GRN-00004",
+    "poId": "PO-00001",
+    "vendor": "TechPro Solutions",
+    "date": "2026-03-02",
+    "status": "Pending Pickup",
+    "reason": "Hardware defect — keyboard issue",
+    "items": [
+      {
+        "name": "Laptop Dell Latitude",
+        "qty": 2,
+        "reason": "Keyboard malfunction"
+      }
+    ],
+    "trackingNumber": "",
+    "carrier": "DTDC"
+  },
+  {
+    "id": "RS-00003",
+    "grnId": "GRN-00002",
+    "poId": "PO-00006",
+    "vendor": "SafeGuard Equipment",
+    "date": "2026-02-12",
+    "status": "Refund Received",
+    "reason": "Cracked lenses on goggles",
+    "items": [
+      {
+        "name": "Safety Goggles",
+        "qty": 5,
+        "reason": "Manufacturing defect"
+      }
+    ],
+    "trackingNumber": "TRK1234567890",
+    "carrier": "FedEx"
+  }
+]

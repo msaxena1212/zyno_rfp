@@ -1,0 +1,207 @@
+[
+  {
+    "id": "PR-00001",
+    "title": "Laptop and peripherals for new hires",
+    "department": "IT",
+    "requestedBy": "Rahul Mehta",
+    "date": "2026-02-15",
+    "priority": "High",
+    "status": "Approved",
+    "totalAmount": 450000,
+    "items": [
+      {
+        "name": "Laptop Dell Latitude",
+        "qty": 5,
+        "unitPrice": 75000
+      },
+      {
+        "name": "Monitor 27\"",
+        "qty": 5,
+        "unitPrice": 15000
+      }
+    ]
+  },
+  {
+    "id": "PR-00002",
+    "title": "Steel plates for manufacturing Q1",
+    "department": "Production",
+    "requestedBy": "Sanjay Rao",
+    "date": "2026-02-14",
+    "priority": "Critical",
+    "status": "Pending Approval",
+    "totalAmount": 2800000,
+    "items": [
+      {
+        "name": "MS Steel Plate 6mm",
+        "qty": 200,
+        "unitPrice": 12000
+      },
+      {
+        "name": "SS Steel Plate 4mm",
+        "qty": 50,
+        "unitPrice": 8000
+      }
+    ]
+  },
+  {
+    "id": "PR-00003",
+    "title": "Q1 Office Supplies Replenishment",
+    "department": "Admin",
+    "requestedBy": "Neha Kapoor",
+    "date": "2026-02-13",
+    "priority": "Medium",
+    "status": "Approved",
+    "totalAmount": 85000,
+    "items": [
+      {
+        "name": "A4 Paper Ream",
+        "qty": 200,
+        "unitPrice": 250
+      },
+      {
+        "name": "Printer Cartridge",
+        "qty": 20,
+        "unitPrice": 1750
+      }
+    ]
+  },
+  {
+    "id": "PR-00004",
+    "title": "Safety helmets and vests — annual order",
+    "department": "EHS",
+    "requestedBy": "Amit Verma",
+    "date": "2026-02-12",
+    "priority": "High",
+    "status": "Pending Approval",
+    "totalAmount": 320000,
+    "items": [
+      {
+        "name": "Safety Helmet ISI",
+        "qty": 200,
+        "unitPrice": 800
+      },
+      {
+        "name": "Reflective Vest",
+        "qty": 200,
+        "unitPrice": 800
+      }
+    ],
+    "timeline": [
+      {
+        "status": "Pending Approval",
+        "date": "2026-02-20T09:08:37.757Z",
+        "by": "System"
+      }
+    ],
+    "updatedAt": "2026-02-20T09:08:39.070Z"
+  },
+  {
+    "id": "PR-00005",
+    "title": "CNC machine spare parts",
+    "department": "Maintenance",
+    "requestedBy": "Vijay Kumar",
+    "date": "2026-02-10",
+    "priority": "Critical",
+    "status": "Approved",
+    "totalAmount": 560000,
+    "items": [
+      {
+        "name": "Spindle Bearing",
+        "qty": 4,
+        "unitPrice": 85000
+      },
+      {
+        "name": "Cutting Tool Set",
+        "qty": 10,
+        "unitPrice": 22000
+      }
+    ]
+  },
+  {
+    "id": "PR-00006",
+    "title": "Server rack upgrade for data center",
+    "department": "IT",
+    "requestedBy": "Rahul Mehta",
+    "date": "2026-02-09",
+    "priority": "High",
+    "status": "Pending Approval",
+    "totalAmount": 1200000,
+    "items": [
+      {
+        "name": "Server Rack 42U",
+        "qty": 2,
+        "unitPrice": 450000
+      },
+      {
+        "name": "UPS 10KVA",
+        "qty": 2,
+        "unitPrice": 150000
+      }
+    ]
+  },
+  {
+    "id": "PR-00007",
+    "title": "Packaging material for product line B",
+    "department": "Production",
+    "requestedBy": "Meera Shah",
+    "date": "2026-02-08",
+    "priority": "Medium",
+    "status": "Rejected",
+    "totalAmount": 175000,
+    "items": [
+      {
+        "name": "Corrugated Box",
+        "qty": 1000,
+        "unitPrice": 125
+      },
+      {
+        "name": "Stretch Wrap Roll",
+        "qty": 50,
+        "unitPrice": 1000
+      }
+    ]
+  },
+  {
+    "id": "PR-00008",
+    "title": "Electrical cables for plant expansion",
+    "department": "Projects",
+    "requestedBy": "Ravi Desai",
+    "date": "2026-02-05",
+    "priority": "High",
+    "status": "Approved",
+    "totalAmount": 890000,
+    "items": [
+      {
+        "name": "Copper Cable 4sqmm",
+        "qty": 500,
+        "unitPrice": 1200
+      },
+      {
+        "name": "Armoured Cable 16sqmm",
+        "qty": 100,
+        "unitPrice": 2900
+      }
+    ]
+  },
+  {
+    "title": "nm",
+    "department": "IT",
+    "priority": "Medium",
+    "requiredDate": "2026-02-20",
+    "justification": "bn",
+    "requestedBy": "Arjun Kumar",
+    "date": "2026-02-20",
+    "status": "Draft",
+    "items": [
+      {
+        "name": "nb",
+        "qty": 1,
+        "unitPrice": 10
+      }
+    ],
+    "totalAmount": 10,
+    "id": "PUR-00009",
+    "createdAt": "2026-02-20T06:04:21.252Z",
+    "updatedAt": "2026-02-20T06:04:21.252Z"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "POD-00001",
+    "poId": "PO-00002",
+    "vendor": "OfficeMart Supplies",
+    "deliveryDate": "2026-02-22",
+    "receivedBy": "Sunil Yadav",
+    "status": "Verified",
+    "location": "Warehouse A",
+    "signature": true,
+    "remarks": "Delivered on time, all boxes intact"
+  },
+  {
+    "id": "POD-00002",
+    "poId": "PO-00006",
+    "vendor": "SafeGuard Equipment",
+    "deliveryDate": "2026-02-10",
+    "receivedBy": "Priya Nair",
+    "status": "Verified",
+    "location": "EHS Store",
+    "signature": true,
+    "remarks": "Delivery complete, minor box dents"
+  },
+  {
+    "id": "POD-00003",
+    "poId": "PO-00003",
+    "vendor": "MRO Spares Global",
+    "deliveryDate": "2026-02-28",
+    "receivedBy": "Vijay Kumar",
+    "status": "Pending Verification",
+    "location": "Maintenance Bay",
+    "signature": false,
+    "remarks": "Waiting for quality inspection"
+  },
+  {
+    "id": "POD-00004",
+    "poId": "PO-00001",
+    "vendor": "TechPro Solutions",
+    "deliveryDate": "2026-03-01",
+    "receivedBy": "Rahul Mehta",
+    "status": "Disputed",
+    "location": "IT Lab",
+    "signature": true,
+    "remarks": "2 laptops with keyboard defects, issue raised"
+  }
+]

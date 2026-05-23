@@ -1,0 +1,67 @@
+[
+  {
+    "id": "APR-00001",
+    "type": "Purchase Requisition",
+    "referenceId": "PR-00002",
+    "title": "Steel plates for manufacturing Q1",
+    "requestedBy": "Sanjay Rao",
+    "amount": 2800000,
+    "date": "2026-02-14",
+    "status": "Pending",
+    "priority": "High",
+    "approver": "VP Procurement",
+    "level": "senior"
+  },
+  {
+    "id": "APR-00002",
+    "type": "Purchase Requisition",
+    "referenceId": "PR-00006",
+    "title": "Server rack upgrade for data center",
+    "requestedBy": "Rahul Mehta",
+    "amount": 1200000,
+    "date": "2026-02-09",
+    "status": "Pending",
+    "priority": "High",
+    "approver": "CFO",
+    "level": "executive"
+  },
+  {
+    "id": "APR-00003",
+    "type": "Invoice",
+    "referenceId": "INV-00002",
+    "title": "SafeGuard Equipment invoice approval",
+    "requestedBy": "System",
+    "amount": 280000,
+    "date": "2026-02-13",
+    "status": "Pending",
+    "priority": "Medium",
+    "approver": "Procurement Manager",
+    "level": "manager"
+  },
+  {
+    "id": "APR-00004",
+    "type": "Purchase Order",
+    "referenceId": "PO-00005",
+    "title": "Steel PO release approval",
+    "requestedBy": "Sanjay Rao",
+    "amount": 2800000,
+    "date": "2026-02-11",
+    "status": "Approved",
+    "priority": "Critical",
+    "approver": "CFO",
+    "level": "executive"
+  },
+  {
+    "id": "APR-00005",
+    "type": "Contract",
+    "referenceId": "CON-00002",
+    "title": "Steel contract renewal approval",
+    "requestedBy": "Meena Patel",
+    "amount": 15000000,
+    "date": "2026-02-05",
+    "status": "Pending",
+    "priority": "Critical",
+    "approver": "CEO",
+    "level": "executive"
+  }
+]

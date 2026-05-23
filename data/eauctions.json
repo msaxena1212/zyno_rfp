@@ -1,0 +1,72 @@
+[
+  {
+    "id": "AUC-00001",
+    "title": "Steel plates bulk procurement — Q2 2026",
+    "category": "Raw Materials",
+    "startDate": "2026-03-01T10:00:00",
+    "endDate": "2026-03-01T14:00:00",
+    "status": "Upcoming",
+    "reservePrice": 2500000,
+    "currentBid": 0,
+    "participants": [
+      "VND-00002",
+      "VND-00007"
+    ],
+    "bids": []
+  },
+  {
+    "id": "AUC-00002",
+    "title": "Office furniture supply for new wing",
+    "category": "Office Supplies",
+    "startDate": "2026-02-15T09:00:00",
+    "endDate": "2026-02-15T13:00:00",
+    "status": "Completed",
+    "reservePrice": 500000,
+    "currentBid": 420000,
+    "participants": [
+      "VND-00005"
+    ],
+    "bids": [
+      {
+        "vendor": "VND-00005",
+        "amount": 480000,
+        "time": "09:15"
+      },
+      {
+        "vendor": "VND-00005",
+        "amount": 450000,
+        "time": "10:30"
+      },
+      {
+        "vendor": "VND-00005",
+        "amount": 420000,
+        "time": "12:00"
+      }
+    ]
+  },
+  {
+    "id": "AUC-00003",
+    "title": "Packaging materials reverse auction",
+    "category": "Packaging",
+    "startDate": "2026-02-20T11:00:00",
+    "endDate": "2026-02-20T15:00:00",
+    "status": "Live",
+    "reservePrice": 350000,
+    "currentBid": 310000,
+    "participants": [
+      "VND-00003"
+    ],
+    "bids": [
+      {
+        "vendor": "VND-00003",
+        "amount": 340000,
+        "time": "11:20"
+      },
+      {
+        "vendor": "VND-00003",
+        "amount": 310000,
+        "time": "13:45"
+      }
+    ]
+  }
+]

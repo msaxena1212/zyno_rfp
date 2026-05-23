@@ -126,14 +126,61 @@ function extractCityFromText(text) {
     return 'India';
 }
 
+async function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function retry(fn, retries = 3, delay = 300) {
+    for (let i = 0; i < retries; i++) {
+        try {
+            return await fn();
+        } catch (error) {
+            if (i === retries - 1) throw error;
+            await sleep(delay);
+        }
+    }
+}
+
 async function searchDuckDuckGo(query) {
     const results = [];
 
+    // Primary: SearchAPI.io via API key (with retry)
     try {
-        // Primary: Use duck-duck-scrape package (uses DDG's internal API, avoids bot detection)
+        const serpResults = await retry(async () => {
+            const url = `https://www.searchapi.io/api/v1/search?engine=google&api_key=7KANoxXx1i5ivizcWgiTXrtu&q=${encodeURIComponent(query)}`;
+            const serpResponse = await fetch(url, {
+                method: 'GET',
+                headers: { 'Accept': 'application/json' }
+            });
+            if (!serpResponse.ok) {
+                throw new Error(`SearchAPI request failed: ${serpResponse.status}`);
+            }
+            const data = await serpResponse.json();
+            const items = data.organic_results || [];
+            const tempResults = [];
+            if (Array.isArray(items) && items.length) {
+                for (const item of items) {
+                    tempResults.push({
+                        title: item.title || '',
+                        snippet: item.snippet || item.description || '',
+                        link: item.link || ''
+                    });
+                }
+            }
+            return tempResults;
+        }, 3, 300);
+        
+        if (serpResults && serpResults.length > 0) {
+            return serpResults;
+        }
+    } catch (serpError) {
+        console.warn('SearchAPI error:', serpError.message);
+    }
+
+    // Fallback: DuckDuckGo primary scrape using duck-duck-scrape
+    try {
         const { search } = await import('duck-duck-scrape');
         const searchResults = await search(query, { safeSearch: 0 });
-        
         if (searchResults && searchResults.results && searchResults.results.length > 0) {
             for (const r of searchResults.results) {
                 if (r.title && r.description) {
@@ -144,17 +191,16 @@ async function searchDuckDuckGo(query) {
                     });
                 }
             }
-            return results;
+            if (results.length > 0) return results;
         }
     } catch (primaryError) {
         console.log('Primary DDG search failed, trying fallback:', primaryError.message);
     }
 
-    // Fallback: DuckDuckGo Lite endpoint (simpler, less likely to trigger CAPTCHA)
+    // Fallback: DuckDuckGo Lite endpoint
     try {
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 12000);
-
         const response = await fetch('https://lite.duckduckgo.com/lite/', {
             method: 'POST',
             headers: {
@@ -167,13 +213,9 @@ async function searchDuckDuckGo(query) {
             signal: controller.signal
         });
         clearTimeout(timeoutId);
-
         if (!response.ok) return [];
-
         const html = await response.text();
         const $ = cheerio.load(html);
-
-        // DDG Lite uses a table-based layout with specific classes
         $('.result-snippet').each((i, el) => {
             const tr = $(el).closest('tr').prev('tr');
             const title = tr.find('.result-link').text().trim();
@@ -183,8 +225,6 @@ async function searchDuckDuckGo(query) {
                 results.push({ title, snippet, link });
             }
         });
-
-        // If lite selectors didn't work, try the standard HTML selectors
         if (results.length === 0) {
             $('.result').each((i, el) => {
                 const title = $(el).find('.result__title').text().trim();
@@ -198,7 +238,7 @@ async function searchDuckDuckGo(query) {
     } catch (fallbackError) {
         console.log('Fallback DDG search also failed:', fallbackError.message);
     }
-    
+
     return results;
 }
 
@@ -237,10 +277,14 @@ async function performLiveSearch(query, assetClass, category) {
     ];
 
     try {
-        // Run all searches in parallel
-        const allSearchResults = await Promise.all(
-            searchQueries.map(q => searchDuckDuckGo(q))
-        );
+        // Run all searches sequentially
+        const allSearchResults = [];
+        for (const q of searchQueries) {
+          // sequential request with small delay to avoid rate limits
+          const resultsForQ = await searchDuckDuckGo(q);
+          allSearchResults.push(resultsForQ);
+          await sleep(300); // 300ms pause between queries
+        }
 
         // Process all results
         for (const searchResults of allSearchResults) {

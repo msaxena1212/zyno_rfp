@@ -3,6 +3,8 @@ import { useState } from 'react';
 import Sidebar from '@/components/Sidebar';
 import Topbar from '@/components/Topbar';
 import { ToastProvider } from '@/components/Toast';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import './globals.css';
 
 export default function RootLayout({ children }) {
@@ -27,6 +29,8 @@ export default function RootLayout({ children }) {
                             </div>
                         </div>
                     </div>
+                    <Analytics />
+                    <SpeedInsights />
                 </ToastProvider>
             </body>
         </html>
